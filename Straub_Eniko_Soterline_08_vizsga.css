@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: top;
+    display: flex;
+    height: 86px;
+    background-color: #B49A87;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flexbox;  
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 17px;   
+    color: black;
+    margin: 0 30px;
+}
+
+.menu a:hover{
+    color: #fff;
+    text-decoration: overline;
+}
+.partnerek{
+    background-color: #B49A87;
+    display: flex;
+    justify-content: center;
+    
+    height: 140px;
+}
+
+.btn-style {
+    color:#B49A87;
+    border-color: #B49A87;
+}
+
+.card {
+    width: 30%;
+}
+
+.card-deck {
+    margin: 10px;
+}
+
+.footer {
+    height: 40px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #B49A87;
+    color: white;
+    text-align: center;
+}
+
+.kapcs {
+    height: 50px;
+    width: 50px;
+    margin: 0 40px 0 40px;
+}
+
+.elerhetoseg {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header{
+    width: 100%;
+    background-color: #B49A87;
+    color:#fff
+}
+
+.profil {
+    width: 380px;
+    height: 380px;
+}
